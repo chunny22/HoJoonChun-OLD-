@@ -1,12 +1,11 @@
 import React from 'react'
 import "./header.css"
-import Resume from '../../assets/resume.pdf'
 
+// FIXME: proper email link to be added
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={Resume} target="_blank" rel="noopener noreferrer" className='btn'>Open CV</a>
-        <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+        <a href="#contact" className='btn btn-primary'>Send Email</a>
     </div>
   )
 }

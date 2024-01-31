@@ -10,9 +10,17 @@ header {
     position: relative;
 }
 
+.intro__container {
+}
+
+.text__container {
+    margin-top: 5rem;
+    max-width: 80%;
+}
+
 /* CTA Styling */
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
