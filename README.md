@@ -1,3 +1,3 @@
 # Personal portfolio website
 
-Developed with React.
+Developed with React, still in progress!
