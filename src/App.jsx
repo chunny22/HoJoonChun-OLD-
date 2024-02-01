@@ -1,4 +1,6 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import Project from './components/project/Project'
@@ -10,7 +12,14 @@ const app = () => {
   return (
     <>
       <Header />
-      <Nav />
+      <motion.div
+        animate={{ y: 0}}
+        initial={{ y: 200}}
+        transition={{ type: 'spring', 
+                      stiffness: 60,
+                      mass: 1,
+                      delay: 1.7 }}
+      ><Nav /></motion.div>
       <Experience />
       <Project />
       <Resume />

@@ -8,29 +8,29 @@ import HeaderSocial from './HeaderSocials'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className='container header__container'>
         <motion.div 
-          className="container intro__container"
+          className='container intro__container'
           animate={{ x: 0, opacity: 1 }}
           initial={{ x: -50, opacity: 0 }}
-          transition={{ type: "tween", duration: 2 }}>
+          transition={{ type: 'tween', duration: 1 }}>
             <h5>Hello! My name is</h5>
             <h1>Justin Chun</h1>
-            <h5 className="text-light">New Grad CS Student</h5>
+            <h5 className='text-light'>New Grad CS Student</h5>
         </motion.div>
         
         <motion.div
-          className="cta"
+          className='cta'
           animate={{ x: 0, opacity: 1 }}
           initial={{ x: -50,  opacity: 0 }}
-          transition={{ type: "tween", duration: 2, delay: 0.7 }}
+          transition={{ type: 'tween', duration: 1, delay: 0.7 }}
         ><CTA /></motion.div>
         
         <motion.div 
-          className="container text__container"
+          className='container text__container'
           animate={{ x: 0, opacity: 1 }}
           initial={{ x: -50,  opacity: 0 }}
-          transition={{ type: "tween", duration: 2, delay: 1.1 }}>
+          transition={{ type: 'tween', duration: 1, delay: 1.1 }}>
             <p className='text-medium'>
               Welcome to my web page!
               <br /><br />
@@ -44,13 +44,13 @@ const Header = () => {
               <br /><br />
               I have done numerous internships in the past, and I am currently looking for new opportunities as a new grad. I have done couple 
               of personal projects, along with a publication on arXiv. You can find out about all of them below in this site. If you'd like to 
-              reach out, simply click on the "Send Email" button up top or my social links on the left side of this site.
+              reach out, simply click on the 'Send Email' button up top or my social links on the left side of this site.
             </p>
         </motion.div>
         
         <HeaderSocial />
 
-        <a href="#resume" className="scroll__down">Scroll Down</a>
+        <a href='#resume' className='scroll__down'>Scroll Down</a>
       </div>
     </header>
   )
