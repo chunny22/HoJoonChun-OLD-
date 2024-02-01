@@ -1,7 +1,6 @@
 import React from 'react'
 import "./header.css"
 
-// FIXME: proper email link to be added
 const CTA = () => {
   return (
     <div className='cta'>

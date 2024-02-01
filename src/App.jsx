@@ -11,8 +11,8 @@ const app = () => {
     <>
       <Header />
       <Nav />
-      <Project />
       <Experience />
+      <Project />
       <Resume />
       <Footer />
     </>

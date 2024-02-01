@@ -12,8 +12,8 @@ const Nav = () => {
   return (
     <nav>
       <a href='#' onClick={ () => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><IoHomeOutline /></a>
-      <a href='#project' onClick={ () => setActiveNav('#project')} className={activeNav === '#project' ? 'active' : ''}><GoFileCode /></a>
       <a href='#experience' onClick={ () => setActiveNav('#experience')} className={activeNav === '#xperience' ? 'active' : ''}><CgWorkAlt /></a>
+      <a href='#project' onClick={ () => setActiveNav('#project')} className={activeNav === '#project' ? 'active' : ''}><GoFileCode /></a>
       <a href='#resume' onClick={ () => setActiveNav('#resume')} className={activeNav === '#resume' ? 'active' : ''}><IoDocumentTextOutline /></a>
     </nav>
   )
