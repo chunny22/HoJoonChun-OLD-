@@ -4,7 +4,6 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-// FIXME: proper email link to be added
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>

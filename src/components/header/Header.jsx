@@ -7,15 +7,17 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello! My name is</h5>
-        <h1>Justin Chun</h1>
-        <h5 className="text-light">New Grad CS Student</h5>
+        <div className="container intro__container">
+          <h5>Hello! My name is</h5>
+          <h1>Justin Chun</h1>
+          <h5 className="text-light">New Grad CS Student</h5>
+        </div>
         
         <CTA />
         
-        <div className='container text__container'>
+        <div className="container text__container">
           <p className='text-medium'>
-            Hey! Welcome to my web page.
+            Welcome to my web page!
             <br /><br />
             I am a recently graduated student from University of Ottawa, with a Honours Bachelor of Science in Computer Science.
             Coming all the way from South Korea, I have been living in Canada for about 8 years now, mostly living in Toronto. In here, 
@@ -34,7 +36,7 @@ const Header = () => {
         
         <HeaderSocial />
 
-        <a href="#resume" className='scroll__down'>Scroll Down</a>
+        <a href="#resume" className="scroll__down">Scroll Down</a>
       </div>
     </header>
   )

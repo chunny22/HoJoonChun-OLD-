@@ -11,13 +11,13 @@ header {
 }
 
 .text__container {
-    margin-top: 5rem;
     max-width: 80%;
 }
 
 /* CTA Styling */
 .cta {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5%;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -30,7 +30,7 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
+    left: 0%;
     bottom: 3rem;
 }
 
