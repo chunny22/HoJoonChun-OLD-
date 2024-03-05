@@ -58,6 +58,7 @@ const Experience = () => {
             <small className='text-light'>Jun 2020 - Aug 2020</small>
             <ul>
               <li>Developed Android application using Android Studio with Java</li>
+              <li>Transferred data to a MySQL database using PHP based server managed with WAMP program</li>
             </ul>
           </div>
         </div>
