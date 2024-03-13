@@ -5,7 +5,6 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h2>My Experiences</h2>
-
       <div className='container experience__container'>
         <div className='experience'>
           <h3>Quality Engineering Analyst</h3>
@@ -43,7 +42,7 @@ const Experience = () => {
         <div className='experience'>
           <h3>Business Intelligence Developer</h3>
           <div className='experience__content'>
-            <h4>CFIA - Ottawa, Canada</h4>
+            <h4>Canadian Food Inspection Agency - Ottawa, Canada</h4>
             <small className='text-light'>May 2021 - Aug 2021 (Intern) / Sep 2021 - Nov 2021 (Part-time)</small>
             <ul>
               <li>Carried out ETL process, from Oracle databases to enterprise data warehouse</li>

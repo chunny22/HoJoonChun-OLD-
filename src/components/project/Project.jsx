@@ -3,7 +3,9 @@ import './project.css'
 
 const project = () => {
   return (
-    <section id='project'>project</section>
+    <section id='project'>
+      <h2>My Projects</h2>
+    </section>
   )
 }
 
