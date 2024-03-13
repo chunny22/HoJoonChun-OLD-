@@ -114,6 +114,25 @@ a {
     color: var(--color-bg);
 }
 
+.navbuttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav-text {
+    cursor: pointer;
+    display: flex;
+    color: var(--color-black);
+    text-decoration: underline;
+    margin-bottom: 1.2rem;
+    font-size: 3rem;
+}
+
+.nav-text:hover {
+    color: #F3CF1B;
+}
+
 img {
     display: block;
     width: 100%;

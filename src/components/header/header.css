@@ -28,21 +28,6 @@ header {
     gap: 1.2rem;
 }
 
-.navbuttons {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.nav-text {
-    cursor: pointer;
-    display: flex;
-    color: var(--color-black);
-    text-decoration: underline;
-    margin-bottom: 1.2rem;
-    font-size: 3rem;
-}
-
 /* Media Queries (Medium Devices) */
 @media screen and (max-width: 1024px) {
     header {
