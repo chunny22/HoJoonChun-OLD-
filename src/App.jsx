@@ -16,7 +16,7 @@ const app = () => {
       <Experience />
       <Project />
       <Resume />
-      <Footer />
+      <Footer /> 
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import './nav.css'
 import { useState } from 'react';
+import './nav.css'
 
 import { IoHomeOutline } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";

@@ -21,11 +21,28 @@ header {
     max-width: 80%;
 }
 
-/* CTA Styling */
 .cta__container {
     margin-top: 1rem;
     display: block;
     gap: 1.2rem;
+}
+
+.header-socials {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    width: 3rem;
+    position: absolute;
+}
+
+.header-socials svg {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.hs-button:hover {
+    color: var(--color-hover);
 }
 
 /* Media Queries (Medium Devices) */

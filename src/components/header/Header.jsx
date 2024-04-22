@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 import './header.css'
 import CTA from './CTA'
+import HeaderSocials from './HeaderSocials'
 import NavButtons from './NavButtons'
 
 const Header = () => {
@@ -25,8 +26,11 @@ const Header = () => {
           transition={{ type: 'tween', duration: 1, delay: 0.7 }}
         ><CTA /></motion.div>
 
+        <motion.div className='container socials__container'>
+          <HeaderSocials />
+        </motion.div>
+
         <div className='container navbuttons__container'><NavButtons /></div>
-        
       </div>
     </header>
   )
