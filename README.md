@@ -2,4 +2,4 @@
 
 This repository has been deprecated, codebase converted with Vite deployment tool.
 
-Check [link] for the updated codebase.
+Check [[link](https://github.com/chunny22/HoJoonChun)] for the updated codebase.
